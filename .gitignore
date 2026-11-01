@@ -1,0 +1,22 @@
+# Dependencies and build output
+node_modules/
+frontend/dist/
+backend/data/*.sqlite3
+backend/data/*.sqlite3-shm
+backend/data/*.sqlite3-wal
+
+# Python environments, bytecode, and test/coverage output
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environment and editor files
+.env
+.env.*
+!.env.example
+.DS_Store
+.vscode/
